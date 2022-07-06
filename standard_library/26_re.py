@@ -1,3 +1,13 @@
+"""
+Python tip for Data Scientists 🐍
+
+When creating a dataset or saving logs from experiment, we often want our files to follow the same pattern, for example:
+
+file001_bark_44100.wav
+
+We can easily verify if they do using Python regular expressions and re.fullmatch() function. 👇
+"""
+
 import re
 
 # We want to verify if all files have the same pattern f(code)_(length)_(name).wav

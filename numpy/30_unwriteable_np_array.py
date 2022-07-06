@@ -1,3 +1,9 @@
+"""
+Today I learned that you can actually create read-only, un-writeable numpy arrays in Python 🔥👇
+
+Potential use case: maybe you have a matrix that you want to use as a constant, this may be your way to do it.
+"""
+
 import numpy as np
 
 x = np.array([[1, 2, 3], [4, 5, 6]])

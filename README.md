@@ -17,6 +17,12 @@ Enjoy!
 7. [Create one hot encoded vector in plain Python](standard_library/12_one_hot_encoding.py)
 8. [Make directory using `pathlib`](standard_library/16_pathlib_mkdir.py)
 9. [Use product to generate unique pairs/trios/etc. from multiple sets](standard_library/17_itertools_product.py)
+10. [Using any vs. all](standard_library/22_any_all.py)
+11. [Type vs. isinstance for checking the type in Python](standard_library/23_type_vs_isinstance.py)
+12. [How to use subparsers from `argparse`](standard_library/25_subparsers.py)
+13. [Check if file name matches a pattern using `re`](standard_library/26_re.py)
+14. [What bare asterisk * means in Python](standard_library/27_bare_asterisk.py)
+15. [How to write custom decorator](standard_library/28_custom_decorator.py)
 
 ## Soundfile
 
@@ -25,14 +31,18 @@ Enjoy!
 ## PyTorch
 
 1. [Creating Dataset from Pandas DataFrame](pytorch/06_pandas_torch_dataset.py)
-2. [Create one hot encoded vector](standard_library/12_one_hot_encoding.py)
+2. [Create one hot encoded vector](pytorch/12_one_hot_encoding.py)
+3. [Find bottlenecks in your code using profiler](pytorch/21_torch_profiler.py)
+4. [How to write custom context manager - example for PyTorch](pytorch/29_custom_contextmanager.py)
 
 ## NumPy
 
 1. [NumPy pad modes explained](numpy/07_np_pad_modes.py)
 2. [Matrix multiplication - 2 ways](numpy/10_matrix_multiplication.py)
 3. [6 ways to create a dummy numpy array](numpy/11_dummy_arrays.py)
-4. [Create one hot encoded vector](standard_library/12_one_hot_encoding.py)
+4. [Create one hot encoded vector](numpy/12_one_hot_encoding.py)
+5. [Epsilon aka really small value in numpy](numpy/24_numpy_eps.py)
+6. [Create read-only, un-writeable numpy array](numpy/30_unwriteable_np_array.py)
 
 ## Matplotlib
 

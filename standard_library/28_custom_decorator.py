@@ -1,3 +1,14 @@
+"""
+Python tip for Data Scientists 💡
+
+You can use Python decorators to automate execution of some repetitive calls. 🔁
+
+In this example we create decorator to log inputs and outputs of any function. 👇
+
+Do you see other use cases for that? 🔥
+"""
+
+
 # WE DEFINE OUR DECORATOR FOR REPETITIVE STUFF
 
 def log_outputs(func):

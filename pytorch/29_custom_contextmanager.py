@@ -1,3 +1,11 @@
+"""
+Python tip for Machine Learning and PyTorch 💡
+
+When I just started I was often forgetting to switch between train and eval modes in PyTorch. 😅
+
+You can actually solve it using Python context managers and creating automatic switch. 👇
+"""
+
 import torch
 
 

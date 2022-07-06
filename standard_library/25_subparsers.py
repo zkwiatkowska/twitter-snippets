@@ -1,3 +1,11 @@
+"""
+Subparsers come in handy if we want to use different params in one script. 👇
+
+If we use "python http://run.py train ...", we won't see an error that evaluate params are required.
+
+We can also access help separately with "python http://run.py train -h".
+"""
+
 from argparse import ArgumentParser
 
 parser = ArgumentParser()

@@ -1,3 +1,14 @@
+"""
+Wondering why your PyTorch code is slow and want to find a bottleneck? 🧐
+
+You can use a built-in profiler in 3 steps! 🚀
+-> wrap codes of interest in contexts
+-> run model
+-> check efficiency
+
+(I omitted some obvious parts of the code for better visibility of profiler parts)
+"""
+
 import torch
 from torch import nn
 import torch.autograd.profiler as profiler
