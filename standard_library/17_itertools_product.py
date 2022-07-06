@@ -1,3 +1,9 @@
+"""
+Do you want to check different combinations of hyperparameters in your ML experiments? 🧐
+
+You can easily generate all possible combinations using Python built-in itertools product function. 👇
+"""
+
 from itertools import product
 
 batch_sizes = [8, 16, 32]

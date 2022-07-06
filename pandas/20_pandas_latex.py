@@ -1,3 +1,9 @@
+"""
+If you are using Latex to create reports, theses or papers, and you're simultaneously using Python pandas - this is for you. 👇
+
+Pandas has a built-in way to transform your Data Frame into a string with Latex table syntax. 🔥
+"""
+
 import pandas as pd
 
 df = pd.DataFrame([["Bob", 5.5], ["Bob", 1.2], ["Alice", 4.0]], columns=["Name", "Grade"])
