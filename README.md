@@ -23,6 +23,9 @@ Enjoy!
 13. [Check if file name matches a pattern using `re`](standard_library/26_re.py)
 14. [What bare asterisk * means in Python](standard_library/27_bare_asterisk.py)
 15. [How to write custom decorator](standard_library/28_custom_decorator.py)
+16. [How to add 2 args to your script but allow only one at a time with `argparse`](standard_library/31_mutually_exclusive_groups.py)
+17. [Simple dict vs. OrderedDict](standard_library/36_ordered_dict.py)
+18. [How to use chain to concatenate lists faster](standard_library/37_chain_vs_list_sum.py)
 
 ## Soundfile
 
@@ -34,6 +37,7 @@ Enjoy!
 2. [Create one hot encoded vector](pytorch/12_one_hot_encoding.py)
 3. [Find bottlenecks in your code using profiler](pytorch/21_torch_profiler.py)
 4. [How to write custom context manager - example for PyTorch](pytorch/29_custom_contextmanager.py)
+5. [Define our own differentiable functions using autograd](pytorch/38_torch_autograd.py)
 
 ## NumPy
 
@@ -43,6 +47,9 @@ Enjoy!
 4. [Create one hot encoded vector](numpy/12_one_hot_encoding.py)
 5. [Epsilon aka really small value in numpy](numpy/24_numpy_eps.py)
 6. [Create read-only, un-writeable numpy array](numpy/30_unwriteable_np_array.py)
+7. [Create and remove artificial dimensions - expand_dims and squeeze](numpy/33_numpy_squeeze_and_expand.py)
+8. [Extract unique rows from array](numpy/39_array_unique_rows.py)
+9. [Difference between nan and inf + explanation](numpy/40_infinity_vs_nan.py)
 
 ## Matplotlib
 
@@ -54,7 +61,10 @@ Enjoy!
 2. [Count unique values in column](pandas/15_pandas_value_counts.py)
 3. [Example how to use groupby - create summary with respect to categorical variable](pandas/19_pandas_groupby.py)
 4. [Convert DataFrame to Latex table](pandas/20_pandas_latex.py)
+5. [Using apply and lambda to quickly transform the columns](pandas/35_pandas_apply_with_lambda.py)
 
 ## Tqdm
 
 1. [Add progress bar to your for loops](tqdm/18_tqdm.py)
+2. [Progress bar and range in one function - trange](tqdm/32_tqdm_trange.py)
+3. [Add description to progress bar](tqdm/34_tqdm_description.py)

@@ -1,3 +1,11 @@
+"""
+⏰ Python tip time!
+
+PyTorch allows us to very easily define our own differentiable functions if we need them. 👇
+
+Can you explain step by step why the last operation results in 7675? 🧐
+"""
+
 import torch
 
 
